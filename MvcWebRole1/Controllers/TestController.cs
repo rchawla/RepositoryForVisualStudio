@@ -16,5 +16,15 @@ namespace MvcWebRole1.Controllers
             return View();
         }
 
+        public ActionResult Welcome()
+        {
+            ViewData.Model = "Welcome welcome";
+            return View();
+        }
+        public ActionResult Intro()
+        {
+            ViewData.Model = "Gurmeet";
+            return View();
+        }
     }
 }
