@@ -21,6 +21,12 @@ namespace MvcWebRole1.Controllers
             ViewData.Model = "Welcome welcome";
             return View();
         }
-       
+
+        public ActionResult NewIntro()
+        {
+            ViewData["Message"] = "Welcome Gurmeet Kaur Saluja ";
+            return View();
+        }
+
     }
 }
